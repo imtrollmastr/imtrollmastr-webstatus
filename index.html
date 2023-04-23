@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Status</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #f7f7f7;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      margin-top: 0;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    
+    .status {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .status span {
+      margin-left: 10px;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #fff;
+    }
+    
+    .status.success span {
+      background-color: #28a745;
+    }
+    
+    .status.warning span {
+      background-color: #ffc107;
+    }
+    
+    .status.error span {
+      background-color: #dc3545;
+    }
+    
+    p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Website Status</h1>
+    <div class="status success"><span>Online</span></div>
+    <h4>The website is currently online and fully operational.</h4>
+    <p>Updated just now</p>
+  </div>
+</body>
+</html>
